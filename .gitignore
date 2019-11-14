@@ -9,6 +9,7 @@
 *.pyo
 *.mo
 .project
+node_modules
 .mr.developer.cfg
 .installed.cfg
 .pydevproject

@@ -25,11 +25,13 @@ setup(name='cms.theme',
       zip_safe=False,
       install_requires=[
           'setuptools',
+          'plone.app.theming',          
           # -*- Extra requirements: -*-
       ],
       extras_require={
-    'test': ['plone.app.testing',]
-        },       
+          'test': ['plone.app.testing',
+          ]
+      },        
       entry_points="""
       # -*- Entry points: -*-
 
