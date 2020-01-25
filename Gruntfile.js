@@ -15,27 +15,27 @@ module.exports = function (grunt) {
                     sourceMap: true,
                     outputSourceFiles: true,
                     sourceMapURL: '++theme++cms.theme/less/barceloneta-compiled.css.map',
-                    sourceMapFilename: 'emc/theme/theme/less/barceloneta-compiled.css.map',
+                    sourceMapFilename: 'cms/theme/theme/less/barceloneta-compiled.css.map',
                     modifyVars: {
                         "isPlone": "false"
                     }
                 },
                 files: {
-                    'emc/theme/theme/less/barceloneta-compiled.css': 'emc/theme/theme/less/barceloneta.plone.local.less',
+                    'cms/theme/theme/less/barceloneta-compiled.css': 'cms/theme/theme/less/barceloneta.plone.local.less',
                 }
             }
         },
 
         watch: {
             scripts: {
-                files: ['emc/theme/theme/less/*.less'],
+                files: ['cms/theme/theme/less/*.less'],
                 tasks: ['less']
             }
         },
         browserSync: {
             html: {
                 bsFiles: {
-                    src : ['emc/theme/theme/less/*.less']
+                    src : ['cms/theme/theme/less/*.less']
                 },
                 options: {
                     watchTask: true,
@@ -47,7 +47,7 @@ module.exports = function (grunt) {
             },
             plone: {
                 bsFiles: {
-                    src : ['emc/theme/theme/less/*.less']
+                    src : ['cms/theme/theme/less/*.less']
                 },
                 options: {
                     watchTask: true,

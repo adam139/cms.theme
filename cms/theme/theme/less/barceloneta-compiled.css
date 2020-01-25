@@ -4860,4 +4860,5 @@ body.template-logged_out #content-core .portletFooter {
 #search-filter input {
   margin-right: 0.5rem;
 }
+#tinymce p {text-indent: 2em}
 /*# sourceMappingURL=++theme++cms.theme/less/barceloneta-compiled.css.map */
