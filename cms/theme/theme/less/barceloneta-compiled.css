@@ -4860,5 +4860,29 @@ body.template-logged_out #content-core .portletFooter {
 #search-filter input {
   margin-right: 0.5rem;
 }
-#tinymce p {text-indent: 2em}
+#tinymcs p {
+  text-indent: 2em;
+}
+.label {
+  color: #333333;
+}
+.over a {
+  color: #387038;
+  font-weight: 600;
+}
+.fenlei_a span {
+  padding-right: 3px;
+}
+.portlet .portletContent > ul > li a {
+  text-decoration: none;
+}
+th .required::after {
+  color: #c4183c;
+  content: "•";
+  font-size: 200%;
+  line-height: 0;
+  margin-left: -4px;
+  position: relative;
+  top: 7px;
+}
 /*# sourceMappingURL=++theme++cms.theme/less/barceloneta-compiled.css.map */
