@@ -4860,8 +4860,12 @@ body.template-logged_out #content-core .portletFooter {
 #search-filter input {
   margin-right: 0.5rem;
 }
-#tinymcs p {
+#tinymcs p,
+#parent-fieldname-text p {
   text-indent: 2em;
+}
+.pagination > ul > li {
+  display: inline;
 }
 .label {
   color: #333333;
