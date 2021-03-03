@@ -4860,6 +4860,9 @@ body.template-logged_out #content-core .portletFooter {
 #search-filter input {
   margin-right: 0.5rem;
 }
+.navbar-brand {
+  color: white;
+}
 .mce-content-body p,
 #parent-fieldname-text p {
   text-indent: 2em;
