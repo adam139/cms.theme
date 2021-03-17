@@ -4892,4 +4892,10 @@ th .required::after {
   position: relative;
   top: 7px;
 }
+.datagridwidget-cell .querySelectSearch .field {
+  margin-bottom: 0;
+}
+.datagridwidget-cell .querySelectSearch .formControls {
+  display: none;
+}
 /*# sourceMappingURL=++theme++cms.theme/less/barceloneta-compiled.css.map */
